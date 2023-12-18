@@ -1,13 +1,15 @@
+import { Providers } from "./contexts/userContext";
 import { MainRoutes } from "./routes";
 import { GlobalStyle } from "./styles/globalStyle";
 
 function App() {
   return (
     <>
-      <GlobalStyle/>
-      <MainRoutes/>
+      <GlobalStyle />
+      <Providers>
+        <MainRoutes />
+      </Providers>
     </>
-    
   );
 }
 

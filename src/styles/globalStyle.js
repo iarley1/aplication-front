@@ -30,6 +30,7 @@ export const GlobalStyle = createGlobalStyle `
     .spinner {
         width: 25px;
         height: 25px;
+        margin-top: 10px;
         border: 4px solid;
         border-radius: 50%;
         border-color: black #e6e6e6 #e6e6e6 #e6e6e6;
